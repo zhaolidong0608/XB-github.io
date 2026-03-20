@@ -1,6 +1,6 @@
-# 灵医大模型 - 健康分析测试工具
+# 健康大模型 - 健康分析测试工具
 
-这是一个用于测试百度灵医大模型健康数据分析能力的Web应用工具。
+这是一个用于测试大模型健康数据分析能力的Web应用工具。
 
 ## 功能特点
 
@@ -9,46 +9,6 @@
 - 🧪 自动生成健康分析报告
 - 🌐 美观的Web界面
 - 📱 响应式设计
-
-## 快速开始
-
-### 1. 配置API密钥
-
-首先，编辑 `config.py` 文件，填入你从百度灵医开放平台获取的 API Key 和 Secret Key：
-
-```python
-API_KEY = "你的API Key"
-SECRET_KEY = "你的Secret Key"
-```
-
-### 2. 安装依赖
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. 运行应用
-
-```bash
-python app.py
-```
-
-### 4. 访问界面
-
-打开浏览器，访问：`http://localhost:5000`
-
-## 项目结构
-
-```
-demo/
-├── config.py              # 配置文件（API密钥）
-├── ly_api.py              # 灵医API封装
-├── app.py                 # Flask Web应用
-├── requirements.txt       # Python依赖
-├── README.md             # 使用说明
-└── templates/
-    └── index.html        # Web界面
-```
 
 ## 使用说明
 
@@ -89,5 +49,3 @@ demo/
 
 ## 获取帮助
 
-如有问题，请参考百度灵医开放平台文档：
-https://01bot.baidu.com/doc/01bot/v4/develop/chat/
